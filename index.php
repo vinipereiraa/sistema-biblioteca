@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Virtual</title>
-    <?php include 'estilo.php'; ?>
+    <?php include 'estilo/estilo.php'; ?>
 </head>
 <body>
     <fieldset>
         <legend id="leg"><p id="tit">Seja bem vindo a Biblioteca Virtual &#128218;</p></legend>
-        <form action="bibliotecacontroller.php" method="POST" id="form">
+        <form action="php/bibliotecacontroller.php" method="POST" id="form">
         <label for="cod_livro">Código do Livro</label>
         <input type="text" name="cod_livro"><br><br>
         <label for="nome">Nome do Livro</label>
