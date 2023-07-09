@@ -8,8 +8,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    ---white: #fff;
+    ---blue: #B0E0E6; 
+    ---gray: #808080;
+}
+
 body {
-    background-color: powderblue;
+    background-color: var(---blue);
 }
 
 .agroup {
@@ -20,7 +26,7 @@ body {
     margin-top: 10%;
     padding: 10px;
     border-radius: 8px;
-    box-shadow:  3px 3px 3px gray;
+    box-shadow:  3px 3px 3px var(---gray);
 }
 
 #title{
@@ -40,14 +46,14 @@ label {
 }
 
 .inp {
-    background-color: white;
+    background-color: var(---white);
     padding: 3px;
     border-radius: 2px;
 }
 
 .inp:hover {
     transition: .4s;
-    background-color: powderblue;
+    background-color: var(---blue);
 }
 
 </style>
